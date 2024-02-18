@@ -42,7 +42,7 @@ export const VisualizerContextProvider: FC<IProps> = (props) => {
           <div className="w-screen h-[calc(100vh-74px)] flex flex-row justify-center">
             <div className="text-center max-w-md flex flex-col gap-8 p-8">
               <div>
-                <h1 className="text-2xl">welcome to web-expl</h1>
+                <h1 className="text-2xl underline">welcome to web-expl</h1>
                 <p className="text-primary">
                   web-expl is a scraper tool, which visualizes the internet in
                   3d space.

@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <>
-      <div className="w-screen h-[calc(100vh-74px)] bg-background flex justify-center px-4">
+      <div className="w-screen h-full bg-background flex justify-center px-4">
         <div className="py-4 max-w-lg">
           <h1 className="text-2xl underline">about web-expl</h1>
           <p className="text-primary">
@@ -31,6 +31,7 @@ export default function About() {
           </p>
           <br />
           <center>Developed with 💖 using NextJS, TailwindCSS and ThreeJS</center>
+          <div className="p-16"/>
         </div>
       </div>
     </>

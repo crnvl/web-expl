@@ -15,7 +15,7 @@ const PageLayout: FC<IProps> = (props) => {
         <title>{props.title}</title>
         <meta name="description" content={props.description} />
       </Head>
-      <div className="bg-background text-text">
+      <div className="bg-background text-text overflow-hidden">
         <Navbar title={props.title} />
         {props.children}
       </div>

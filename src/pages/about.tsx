@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <>
-      <div className="w-screen h-[calc(100vh-74px)] bg-background flex justify-center">
+      <div className="w-screen h-[calc(100vh-74px)] bg-background flex justify-center px-4">
         <div className="py-4 max-w-lg">
           <h1 className="text-2xl underline">about web-expl</h1>
           <p className="text-primary">

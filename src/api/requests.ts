@@ -5,7 +5,7 @@ export const api = axios.create();
 export const endpoints = {
   webContent: {
     getSiteUrls: (url: string) =>
-      api.get(`http://localhost:3000/api/web-content/site-urls?url=${url}`),
+      api.get(`/api/web-content/site-urls?url=${url}`),
   },
   external: {
     getSiteContent: (url: string) => api.get(url),

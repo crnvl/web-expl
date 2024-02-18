@@ -17,7 +17,7 @@ const Navbar: FC<IProps> = (props) => {
         </center>
         <center className="text-primary flex gap-10 justify-center">
           <Link href="/">home</Link>
-          <Link href="https://github.com/angelsflyinhell/web-expl">
+          <Link href="https://github.com/angelsflyinhell/web-expl?tab=readme-ov-file#deployment">
             selfhost
           </Link>
           <Link href="/about">about</Link>

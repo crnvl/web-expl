@@ -1,3 +1,5 @@
+![banner](./public/banner.png)
+
 # web-expl
 
 Explore the internet in 3-dimensional space.
